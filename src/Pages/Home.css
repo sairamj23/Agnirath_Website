@@ -1,0 +1,13 @@
+/* App.css */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the components horizontally */ /* Centers the components vertically */ /* Sets the container's height to the viewport height */
+  }
+  
+  .top {
+    z-index: 10000;
+    padding-bottom: 4rem;
+  }
+  

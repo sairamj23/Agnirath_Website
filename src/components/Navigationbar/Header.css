@@ -1,16 +1,31 @@
 
 .Navbar {
-    width: 100%;
-    min-height: 4rem ;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: orange;
-    font-weight: 600;
-  }
-  
-  .Container {
-    padding: 0; /* Remove padding to extend the full width */
-  }
+  width: 100%;
+  min-height: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  font-weight: 600;
+}
+
+.Container {
+  padding: 0; /* Remove padding to extend the full width */
+}
+
+.Navbar .nav-link {
+  transition: all 0.3s ease-in-out;
+  color: #000; /* Set the default color for links */
+}
+
+.Navbar .nav-link:hover {
+  color: #fff; /* Set the color for the hovered link */
+  text-shadow: 0 0 5px #fff; /* Add a text glow effect */
+}
+
+.Navbar .nav-link:not(:hover) {
+  opacity: 0.5; /* Reduce the opacity for non-hovered links */
+}
+
 
   
